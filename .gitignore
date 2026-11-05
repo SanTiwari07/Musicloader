@@ -1,2 +1,15 @@
 # Python virtual environment ( contain local files of requirements.txt)
 myenv/
+
+# Secrets and local config (never commit real credentials)
+.env
+.env.*
+!.env.example
+
+# spotipy OAuth token cache
+.cache
+.cache-*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
